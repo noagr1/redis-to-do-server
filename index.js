@@ -9,9 +9,9 @@ app.use(bodyParser.json());
 app.use(cors());
 const client = new Redis({
   port: 12429, // Replace with your port
-  host: "redis-12429.c267.us-east-1-4.ec2.cloud.redislabs.com", // Replace with your host
+  host: "redis-15589.c10.us-east-1-4.ec2.redns.redis-cloud.com:15589", // Replace with your host
   username: "default", // Replace with your username if needed
-  password: "password1234", // Replace with your password
+  password: "FDU4ID8YPkuz7RDDjSNcol8wTheDZ8ei", // Replace with your password
 });
 
 client.on("connect", () => {
